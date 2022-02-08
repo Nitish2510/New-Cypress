@@ -1,0 +1,10 @@
+{
+    "name": "//*[@id='name']",
+    "country": "//*[@id='country']",
+    "city": "//*[@id='city']",
+    "card": "//*[@id='card']",
+    "month": "//*[@id='month']",
+    "year": "//*[@id='year']"
+    
+  }
+  

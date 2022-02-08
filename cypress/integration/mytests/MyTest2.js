@@ -14,6 +14,7 @@ describe('Login to the app', function(){
         LoginPage.clickaddtocart();
         cy.wait(2000);
         LoginPage.clickoncart();
+        cy.wait(2000);
         cy.get('.success > :nth-child(2)').should('have.text', 'HTC One M9');
         cy.wait(2000);
        LoginPage.clickonplaceorder();

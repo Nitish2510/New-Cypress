@@ -15,9 +15,6 @@ describe('Login to the app', function(){
     cy.get('.success > :nth-child(2)').should('have.text', 'HTC One M9')
     cy.contains('Place Order').click();
     cy.wait(2000);
-    
-      
-        
     cy.xpath("//*[@id='name']").type('NITISH');   
     cy.xpath("//*[@id='country']").type('INDIA');
     cy.xpath("//*[@id='city']").type('NOIDA');
@@ -31,12 +28,6 @@ describe('Login to the app', function(){
     cy.wait(2000);
     
     cy.contains('OK').click();
-        
-    
-
-
-
-    
         
 })
 
